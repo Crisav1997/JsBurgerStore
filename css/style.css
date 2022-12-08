@@ -1,0 +1,65 @@
+.centrar{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.bgFooter{
+    background-image: linear-gradient(lightblue, black);
+}
+.bgMain{
+    background-image: radial-gradient(white, lightblue);
+}
+
+.insta {
+    border: 4px solid lightcoral;
+    border-radius: 25px;
+    opacity: 0.6;
+    transition: opacity 2s; }
+  
+  .insta:hover {
+    opacity: 1; }
+  
+  .twitter {
+    border: 4px solid lightblue;
+    border-radius: 25px;
+    opacity: 0.6;
+    transition: opacity 2s; }
+  
+  .twitter:hover {
+    opacity: 1; }
+  
+  .wsp {
+    border: 4px solid lightgreen;
+    border-radius: 25px;
+    opacity: 0.6;
+    transition: opacity 2s; }
+  
+  .wsp:hover {
+    opacity: 1; }
+
+    .logoRrss {
+        display: flex;
+        justify-content: space-evenly; }
+.txtColor{
+    color: white;
+    text-align: center;
+    }
+
+.btnHeader{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.centrar{
+  display: flex;
+    justify-content: center;
+}
